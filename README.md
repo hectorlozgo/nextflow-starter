@@ -42,7 +42,7 @@ npm install or npm i
 ```
 
 **⚠️ WARNING:**
-_The dependencies have exact versions. Run the command **`npm upgrade <package>@latest`** or `npx npm-check-updates -u` to update to the latest versions of all packages, if available._
+_The dependencies have exact versions. Run the command *`npm upgrade <package>@latest`* or *`npx npm-check-updates -u`* to update to the latest versions of all packages, if available._
 
 3. Configure Husky (required for pre-commit and pre-push git hooks):
 
