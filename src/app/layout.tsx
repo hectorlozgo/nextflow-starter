@@ -14,7 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${montserrat.variable} ${lusitana.variable}`}>
+      <body
+        className={`${montserrat.variable} ${lusitana.variable} antialiased`}
+      >
         {children}
       </body>
     </html>
