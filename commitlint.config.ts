@@ -19,7 +19,7 @@ const Configuration: UserConfig = {
       ]
     ],
     'header-max-length': [1, 'always', 72],
-    'subject-case': [2, 'always', []]
+    'subject-case': [0]
   }
 }
 

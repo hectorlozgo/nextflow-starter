@@ -1,11 +1,11 @@
 import { Montserrat, Lusitana } from 'next/font/google'
 
-export const montserratSans = Montserrat({
+export const montserrat = Montserrat({
   variable: '--font-montserrat',
   subsets: ['latin']
 })
 
-export const lusitanaSerif = Lusitana({
+export const lusitana = Lusitana({
   variable: '--font-lusitana',
   weight: ['400', '700'],
   subsets: ['latin']

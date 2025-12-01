@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { lusitanaSerif, montserratSans } from './fonts'
+import { lusitana, montserrat } from './fonts'
 import './globals.css'
 
 export const metadata: Metadata = {
@@ -13,10 +13,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`bg-background text-foreground font-sans ${montserratSans.variable} ${lusitanaSerif.variable} antialiased`}
-      >
+    <html lang="es">
+      <body className={`${montserrat.variable} ${lusitana.variable}`}>
         {children}
       </body>
     </html>
