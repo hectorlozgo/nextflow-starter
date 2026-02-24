@@ -6,19 +6,9 @@ const Configuration: UserConfig = {
     'type-enum': [
       2,
       'always',
-      [
-        'feat',
-        'fix',
-        'chore',
-        'docs',
-        'refactor',
-        'style',
-        'test',
-        'ci',
-        'revert'
-      ]
+      ['build', 'chore', 'ci', 'docs', 'feat', 'fix', 'perf', 'refactor', 'revert', 'style', 'test']
     ],
-    'header-max-length': [1, 'always', 72],
+    'header-max-length': [1, 'always', 92],
     'subject-case': [0]
   }
 }
